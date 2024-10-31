@@ -1,0 +1,25 @@
+body {
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-color: hsl(257, 40%, 49%);
+  }
+
+
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 10rem;
+    color: #fff;
+    margin-left: 4rem;
+}
+
+.logo h1{
+        font-weight: 900;
+        font-size: 2.5rem;
+        letter-spacing: 0.04rem;
+}
+
+.logo i{
+    padding: 0.5rem;
+    font-size: 2rem;
+}
