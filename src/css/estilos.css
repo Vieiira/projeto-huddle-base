@@ -9,7 +9,7 @@ body {
     display: flex;
     text-align: center;
     align-items: center;
-    height: 7rem;
+    height: 5rem;
     color: #fff;
     margin-left: 4rem;
 }
@@ -64,4 +64,24 @@ body {
     background-color: hsl(300, 69%, 71%) ;
 }
 
+
+.icones{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icones a{
+    border: solid 1px #fff;
+    border-radius: 100%;
+    margin: 0 1rem;
+}
+
+.icones i{
+    margin: 1rem ;
+}
+
+.icones a:hover{
+    border: solid 1px  hsl(300, 69%, 71%);
+    color:hsl(300, 69%, 71%) ;
+}
 

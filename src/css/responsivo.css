@@ -27,3 +27,11 @@
     }
     
 }
+
+
+@media (max-width:425px){
+    .icones{
+        margin-top: 2rem;
+        justify-content: center;
+    }
+}
