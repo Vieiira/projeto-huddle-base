@@ -76,6 +76,7 @@ body {
     border-radius: 100%;
     margin: 0 0.5rem;
     color: #fff;
+    transition: 0.3s;
 }
 
 .icones i{
