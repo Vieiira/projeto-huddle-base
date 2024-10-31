@@ -1,5 +1,6 @@
 body {
     background: url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;
     background-color: hsl(257, 40%, 49%);
   }
 
@@ -8,18 +9,59 @@ body {
     display: flex;
     text-align: center;
     align-items: center;
-    height: 10rem;
+    height: 7rem;
     color: #fff;
     margin-left: 4rem;
 }
 
-.logo h1{
-        font-weight: 900;
-        font-size: 2.5rem;
-        letter-spacing: 0.04rem;
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 2rem;
+    grid-column-gap: 2rem;
 }
 
-.logo i{
-    padding: 0.5rem;
-    font-size: 2rem;
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
 }
+
+.informacoes h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin:1rem 0;
+    text-transform: capitalize;
+}
+
+.informacoes p{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.informacoes .botao{
+    margin-left: 2rem;
+}
+
+.botao a{
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    transition: 0.3s;
+    
+}
+
+.botao .btn{
+    color: hsl(300, 69%, 71%);
+}
+
+.botao  a:hover{
+    color: #fff;
+    background-color: hsl(300, 69%, 71%) ;
+}
+
+

@@ -10,3 +10,20 @@
         background-color: hsl(257, 40%, 49%);
     }
 }
+
+@media (max-width:425px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .informacoes{
+        align-items: center;
+    }
+
+    .informacoes .botao{
+        margin-left: 0;
+    }
+    
+}
