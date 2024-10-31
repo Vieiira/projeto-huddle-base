@@ -68,12 +68,14 @@ body {
 .icones{
     display: flex;
     justify-content: flex-end;
+    margin-right: 2rem;
 }
 
 .icones a{
     border: solid 1px #fff;
     border-radius: 100%;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
+    color: #fff;
 }
 
 .icones i{
